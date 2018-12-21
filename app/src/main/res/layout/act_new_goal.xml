@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_goal_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="16dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/separator"
+            android:hint="Goal title"
+            android:inputType="text"
+            android:maxLines="2"
+            tools:ignore="UnusedAttribute" />
+        <!--app:backgroundTint="@color/colorAccent"-->
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_goal_desc"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/til_goal_title"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="16dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/separator"
+            android:hint="Goal description"
+            android:inputType="textMultiLine"
+            tools:ignore="UnusedAttribute" />
+        <!--app:backgroundTint="@color/colorAccent"-->
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_goal_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/border_black"
+        android:text="Add Goal"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <include layout="@layout/progress_bar_center"/>
+
+</RelativeLayout>

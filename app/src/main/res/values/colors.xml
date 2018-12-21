@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#454545</color>
+    <color name="colorAccent">#ff3366</color>
+    <color name="colorSecondary">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="chat_text">#555555</color>
+    <color name="light_black">#7e7e7e</color>
+    <color name="light_grey">#f7f7f7</color>
+    <color name="intro">#d0d0d0</color>
+    <color name="green">#10b248</color>
+    <color name="separator">#CACED3</color>
+    <color name="darkish_blue">#022fff</color>
+    <color name="milestone_green">#20b889</color>
+    <color name="milestone_pom">#c0392b</color>
+    <color name="milestone_sunflower">#f1c40f</color>
+    <color name="milestone_blue">#1f5bbd</color>
+    <color name="unselected_light">#babdc1</color>
+
+    <color name="background_light">#FFFAFAFA</color>
+    <color name="background_deletion">#FFE5E5E5</color>
+    <color name="background_deletion_swipe">#1f5bbd</color>
+    <color name="semi_black">#87000000</color>
+    <color name="grey">#FF828282</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="light_white_call">#ddd</color>
+
+</resources>
