@@ -170,6 +170,7 @@ public class CallTwinActivity extends AppCompatActivity {
     }
 
     public void onEncCallClicked(View view) {
+        mRtcEngine.leaveChannel();
         finish();
     }
 
@@ -201,7 +202,7 @@ public class CallTwinActivity extends AppCompatActivity {
     }
 
     private void joinChannel() {
-        mRtcEngine.joinChannel(null, "demoChannel1", "Extra Optional Data", 0); // if you do not specify the uid, we will generate the uid for you
+        mRtcEngine.joinChannel(null, "pairhealtwin", "", 0); // if you do not specify the uid, we will generate the uid for you
     }
 
     private void setupRemoteVideo(int uid) {
